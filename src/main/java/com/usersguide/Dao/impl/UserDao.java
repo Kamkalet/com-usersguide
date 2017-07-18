@@ -53,7 +53,7 @@ public class UserDao implements IUserDao {
 
     @Override
     public void updateUser(UserRequest userRequest){
-        final String userLogin = userRequest.getLogin();
+        final String userLogin = userRequest.getUserLogin();
         final String name = userRequest.getName();
         final String surname = userRequest.getSurname();
         final String dateOfBirth = userRequest.getDateOfBirth();
@@ -64,8 +64,7 @@ public class UserDao implements IUserDao {
 
     @Override
     public void insertUserToDb(UserRequest userRequest){
-        final String userLogin = userRequest.getLogin();
-        System.out.println(userLogin);
+        final String userLogin = userRequest.getUserLogin();
         final String name = userRequest.getName();
         final String surname = userRequest.getSurname();
         final String dateOfBirth = userRequest.getDateOfBirth();

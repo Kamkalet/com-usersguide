@@ -23,11 +23,11 @@ public class UserRequest {
         this.surname = surname;
         this.dateOfBirth = dateOfBirth;
     }
-    public String getLogin() {
+    public String getUserLogin() {
         return userLogin;
     }
 
-    public void setLogin(String login) {
+    public void setUserLogin(String login) {
         this.userLogin = login;
     }
 

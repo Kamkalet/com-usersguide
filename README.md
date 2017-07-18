@@ -53,7 +53,3 @@ b. Lista użytkowników
 
 Aplikacja powinna umożliwiać edycję wszystkich powyższych własności, także list.
 
-Zadanie
-Proszę przygotować prostą aplikację zgodną z powyższą specyfikacją. Najistotniejszy z punktu widzenia
-oceny Kandydatów jest dla nas sposób zaprojektowania i jakość kodu, wygląd jest mniej ważny, ale nie
-należy go całkiem ignorować.
